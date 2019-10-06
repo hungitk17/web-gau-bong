@@ -1,0 +1,39 @@
+.menuleft li {
+    list-style-type: none;
+    margin-bottom: 5px;
+    background: #EE6477;
+    border-radius: 5px;
+    border: 1px solid white
+}
+
+.menuleft li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px
+}
+
+.menuleft li:hover {
+    background: white;
+    color: #EE6477;
+    border: 1px solid #EE6477
+}
+
+.menuleft li:hover a {
+    color: #EE6477
+}
+
+.menuleft {
+    width: 300px;
+    border: 1px solid #EE6477;
+    padding: 20px 20px 0 0;
+    border-radius: 10px
+}
+
+#timkiem {
+    width: 300px
+}
+
+input {
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+}

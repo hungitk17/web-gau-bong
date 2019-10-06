@@ -1,0 +1,37 @@
+.card {
+    width: 240px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    transition: .5s;
+    margin-top: 30px;
+    background: white;
+    height: 410px;
+}
+
+div.card:hover {
+    box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.5), 0 18px 60px 0 rgba(0, 0, 0, 0.20);
+    transition: .5s;
+}
+
+.size {
+    cursor: pointer;
+}
+
+h5.card-title {
+    transition: .5s;
+}
+
+h5.card-title:hover {
+    color: #EF6B7D;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.card-text {
+    font-weight: bold;
+    color: #DB0000;
+}
+
+.card img {
+    height: 210px;
+}
